@@ -23,14 +23,14 @@ This project was generated with [electron-vue](https://github.com/SimulatedGREG/
 
 
 ## 预览图
-![登录](https://github.com/cooleye/passwordbox/resource/1.jpeg)
+![登录](https://github.com/cooleye/passwordbox/blob/master/resource/1.jpg)
 
-![主页](https://github.com/cooleye/passwordbox/resource/1.jpeg)
+![主页](https://github.com/cooleye/passwordbox/blob/master/resource/2.jpeg)
 
-![添加数据](https://github.com/cooleye/passwordbox/resource/1.jpeg)
+![添加数据](https://github.com/cooleye/passwordbox/blob/master/resource/3.jpeg)
 
-![修改数据](https://github.com/cooleye/passwordbox/resource/1.jpeg)
+![修改数据](https://github.com/cooleye/passwordbox/blob/master/resource/4.jpeg)
 
-![删除数据](https://github.com/cooleye/passwordbox/resource/1.jpeg)
+![删除数据](https://github.com/cooleye/passwordbox/blob/master/resource/5.jpeg)
 
 #### 下载安装包： 链接: https://pan.baidu.com/s/1NA378PTCwqZlpZFavqGzSQ 密码: d4ck
