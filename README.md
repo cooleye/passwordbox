@@ -20,3 +20,6 @@ npm run build
 ---
 
 This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+
+
+#### 下载安装包： 链接: https://pan.baidu.com/s/1NA378PTCwqZlpZFavqGzSQ 密码: d4ck
