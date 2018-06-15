@@ -1,4 +1,4 @@
-# my-project
+# password-box
 
 > An electron-vue project
 

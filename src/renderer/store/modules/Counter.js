@@ -1,9 +1,5 @@
-var fs = require('fs');
-
-// var db = fs.readFileSync(__dirname + '/db.json').toString();
 import DB from '../db.js';
 
-// console.log(db)
 let state = { 
   main: 0,
   user:null,
@@ -22,20 +18,6 @@ const mutations = {
       state.currentUser = user;
       console.log('保存当前用户：',state.currentUser)
     },
-    // SAVE_DATA(state,data){
-    //   state.user = data.user;
-    //   state.dataTable = data.dataTable;
-    // },
-    // DELETE_DATA(state,id){
-    //   if(id){
-    //     var data = state.dataTable;
-    //     for( let i in data){
-    //       if(data[i].id == id){
-    //         state.dataTable.splice(i,1)
-    //       }
-    //     }
-    //   }
-    // },
     INSERT_DATA(state,params){
       if(params){
         state.dataTable.push(params)
@@ -100,19 +82,20 @@ const actions = {
      * 用户注册
      * 把注册信息保存在数据库中
      */
-    REGIST_USER({commit},user){
+    REGIST_USER({commit},insertuser){
 
       return new Promise(function(resolve,reject){
 
 
-        DB.adminData.find({username:user.username},function(err,user){
+        DB.adminData.find({username:insertuser.username},function(err,users){
             if(err){
               reject(err)
             }else{
-              if(user.length >=1){
+              if(users.length >=1){
+                console.log('用户已存在：',users);
                 resolve("用户已存在")
               }else{
-                DB.adminData.insert(user, (err,newuser) => {
+                DB.adminData.insert(insertuser, (err,newuser) => {
                   if(err){
                     reject(err)
                   }else{
